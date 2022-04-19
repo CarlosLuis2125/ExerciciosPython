@@ -2,6 +2,10 @@ import this
 
 import exercicio1
 import exercicio2
+import exercicio3
+import exercicio4
+import exercicio5
+import exercicio8
 
 this.opcao = -1
 num1 = 0
@@ -44,8 +48,19 @@ def operacoes():
             print(exercicio1.mostrar())
             #Fim do exercicio 1
         elif this.opcao == 2:
-            print(exercicio2.coletarNum1())
+            print(exercicio2.mostrarAntecessor())
             #Fim do exercicio2
+        elif  this.opcao == 3:
+            print(exercicio3.mostrarResultado())
+            #fim do opcao3
+        #elif this.opcao == 4:
+
+        elif this.opcao == 5:
+            print(exercicio5.mostrar())
+            #fim do this.opcao5
+        elif this.opcao == 8:
+            print(exercicio8.mostrar())
+            #fim do this.opcao8
         elif this.opcao == 0:
             print('Obrigado!')
         else:
