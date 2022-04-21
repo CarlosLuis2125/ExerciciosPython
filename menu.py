@@ -1,11 +1,16 @@
 import this
 
 import exercicio1
+import exercicio11
+import exercicio13
 import exercicio2
 import exercicio3
 import exercicio4
 import exercicio5
+import exercicio6
+import exercicio7
 import exercicio8
+import exercicio9
 
 this.opcao = -1
 num1 = 0
@@ -33,6 +38,8 @@ def mostrarMenu():
           '\n8. Exercício 8' +
           '\n9. Exercício 9' +
           '\n10. Exercício 10' +
+          '\n11. Exercício 11' +
+          '\n13. Exercício 13' +
 
 
           '\n0. Sair')
@@ -53,14 +60,25 @@ def operacoes():
         elif  this.opcao == 3:
             print(exercicio3.mostrarResultado())
             #fim do opcao3
-        #elif this.opcao == 4:
-
+        elif this.opcao == 4:
+            print(exercicio4.mostrar())
         elif this.opcao == 5:
-            print(exercicio5.mostrar())
+            print(exercicio5.calcular())
             #fim do this.opcao5
+        elif this.opcao == 6:
+            print(exercicio6.calcular())
+        elif this.opcao == 7:
+            print(exercicio7.mostrar())
         elif this.opcao == 8:
             print(exercicio8.mostrar())
-            #fim do this.opcao8
+        elif this.opcao == 9:
+            print(exercicio9.mostrar())
+        #elif this.opcao == 10:
+        #    print(exercicio10.)
+        elif this.opcao == 11:
+            print(exercicio11.mostrar())
+        elif this.opcao == 13:
+            print(exercicio13.mostrar())
         elif this.opcao == 0:
             print('Obrigado!')
         else:

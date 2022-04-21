@@ -29,7 +29,7 @@ def nota3():
     #fim do nota3
 
 def calcular():
-    this.media = (this.notaUm + this.notaDois + this.notaTres) / 3
+    this.media = ((this.notaUm + this.notaDois + this.notaTres) / 3)
     #fim do calcular
 
 def mostrar():

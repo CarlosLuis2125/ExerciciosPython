@@ -1,10 +1,3 @@
-#INCOMPLETO
-#INCOMPLETO
-#INCOMPLETO
-#INCOMPLETO
-#INCOMPLETO
-#FALTA CALCULAR PERCENTUAL
-
 import this
 
 this.eleitores = 0
@@ -35,18 +28,11 @@ def votosV():
     #fim dos votos validos
 
 def calcular():
-    this.vBrancos = (this.vBrancos / this.eleitores) * 100
-    this.vNulos = (this.vNulos / this.eleitores) * 100
-    this.vValidos = (this.vValidos / this.eleitores) * 100
-
-
-
-def mostrar():
     eleitores()
     votosB()
     votosN()
     votosV()
-    print('O percentual de votos brancos em relação com os eleitores: ' + str(this.eleitores) + 'é: ' + str(this.vBrancos) + '%' +
-          '\nO percentual de votos nulos em relação com os eleitores: ' + str(this.eleitores) + 'é: ' + str(this.vNulos) + '%' +
-          '\nO percentual de votos válidos em relação com os eleitores:' + str(this.eleitores) + 'é: ' + str(this.vValidos) + '%')
 
+    print('A quantidade de votos brancos é de ' + str(this.vBrancos) + 'e a porcentagem que representa é de: ' + str(((this.vBrancos / eleitores) * 100)) + '% do total')
+    print('A quantidade de votos nulos é de ' + str(this.vNulos) + 'e a porcentagem que representa é de: ' + str(((this.vNulos / eleitores) * 100)) + '% do total')
+    print('A quantidade de votos nulos é de ' + str(this.vValidos) + 'e a porcentagem que representa é de: ' + str(((this.vValidos / eleitores) * 100)) + '% do total')
